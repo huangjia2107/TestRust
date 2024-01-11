@@ -6,10 +6,10 @@
     "configurations": [
         {
             "name": "Launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "debug",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/target/Debug/${workspaceFolderBasename}.exe",
+            "program": "${workspaceFolder}/target/Debug/test_rust.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
